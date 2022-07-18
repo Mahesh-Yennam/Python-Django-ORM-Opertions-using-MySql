@@ -7,4 +7,6 @@ urlpatterns = [
     path('addemp1', v.add_emp1),
     path('addemp2', v.add_emp2),
     path('addacc', v.add_account),
+    path('viewemp', v.view_emp),
+    path('viewacc', v.view_acc),
 ]
